@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    color: #666;
+}
+
+.complexity {
+    margin-top: 20px;
+}
+
+.complexity h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.complexity p {
+    margin-bottom: 15px;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 100%;
+        margin: 20px auto;
+        padding: 0 10px;
+    }
+}
